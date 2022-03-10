@@ -18,7 +18,19 @@
   padding-right: 90%;
   margin: 5px;
 }
-.button {
+.activebutton {
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  background-color: #525252;
+  border-width: 2px;
+  border-color: white;
+  color: deepskyblue;
+  font-weight: 400;
+  font-size: large;
+  margin: 10px;
+}
+.inactivebutton {
   height: 40px;
   width: 150px;
   border-radius: 20px;
@@ -29,7 +41,4 @@
   font-weight: 400;
   font-size: large;
   margin: 10px;
-}
-.button:focus {
-  color: deepskyblue;
 }

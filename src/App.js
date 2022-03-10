@@ -25,7 +25,7 @@ function App() {
     if (isFinite(monthly)) {
       const monthlyPaymentCalculated = monthly.toFixed(2);
       setEmi(monthlyPaymentCalculated);
-      console.log(monthlyPaymentCalculated);
+      // console.log(monthlyPaymentCalculated);
     }
     return;
   };

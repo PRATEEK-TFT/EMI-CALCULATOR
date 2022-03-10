@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Classes from "./LowerContainer.module.css";
 const buttonData = [
   { id: 1, value: 3, name: "3 Months" },
@@ -11,7 +12,9 @@ const buttonData = [
   { id: 9, value: 48, name: "48 Months" },
 ];
 const LowerContainer = (props) => {
+  const [selectedTenure, setSelectedTenure] = useState(null);
   const buttonClickHandler = (event) => {
+    setSelectedTenure(event);
     {
       props.tenure(event);
     }
@@ -22,7 +25,11 @@ const LowerContainer = (props) => {
       {buttonData.map((data) => (
         <button
           key={data.id}
-          className={Classes.button}
+          className={
+            selectedTenure === data.value
+              ? Classes.activebutton
+              : Classes.inactivebutton
+          }
           onClick={() => buttonClickHandler(data.value)}
         >
           {data.name}

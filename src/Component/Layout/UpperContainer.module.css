@@ -1,0 +1,59 @@
+.para {
+  color: white;
+  font-weight: 600;
+  font-size: x-large;
+}
+.upperbox {
+  align-items: center;
+  width: 50%;
+  background-color: #525252;
+  border-radius: 10px;
+  padding: 2%;
+  padding-bottom: 0%;
+  padding-top: 0%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+.amountInput {
+  height: 40px;
+  background-color: #525252;
+  border-color: white;
+  color: deepskyblue;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 25px;
+  font-family: "Gill Sans";
+  width: 100%;
+  margin-left: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.slider {
+  width: 95%;
+  height: 1%;
+  accent-color: lime;
+}
+.amountText {
+  color: white;
+  font-size: x-large;
+}
+.space {
+  width: 60vh;
+}
+.symbolAlign {
+  width: 50%;
+  position: relative;
+}
+.symbolText {
+  position: absolute;
+  margin-left: 30px;
+  padding-left: 15px;
+  margin-top: 6px;
+
+  color: deepskyblue;
+  font-weight: 600;
+  font-size: 25px;
+  font-family: "Gill Sans";
+}

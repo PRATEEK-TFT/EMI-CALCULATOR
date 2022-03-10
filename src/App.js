@@ -34,7 +34,7 @@ function App() {
   });
   return (
     <div className={Classes.div}>
-      <h1 className={Classes.heading}>EMI calculater</h1>
+      <h1 className={Classes.heading}>EMI calculator</h1>
       <UpperContainer amount={amountHandler} />
       <LowerContainer tenure={tenureHandler} />
       <div className={Classes.interestTextDiv}>
